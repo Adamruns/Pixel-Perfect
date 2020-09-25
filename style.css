@@ -56,3 +56,17 @@ body, html {
   background-color: #ddd;
   color: black;
 }
+.bottomnav {
+  float: right;
+  background-color: rgba(11, 53, 80,1);
+  display: cover
+}
+.bottomnav a {
+  color: grey;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+  font-size: 15px;
+  text-decoration: none;
+}
+}
