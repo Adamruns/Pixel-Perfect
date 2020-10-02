@@ -89,14 +89,15 @@ right: 10%;
   float: left;
   position:relative;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   top:0;
   left:100px;
   color:rgb(11,53,80);
   font-family: 'Oswald', serif;
 }
 .brand span{
-
+margin: 0 0 0 10px;
 }
 
 /* Change the color of links on hover */
