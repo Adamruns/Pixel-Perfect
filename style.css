@@ -106,12 +106,12 @@ margin-left: 10px;
 /* Fantastic Headline*/
 .post-body >h1 {
   display: flex;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
   flex-wrap: wrap;
   width:615px;
   color:rgb(11,53,80);
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   margin-block-start:0;
   margin-right: 0;
 }
@@ -123,13 +123,21 @@ margin-left: 10px;
   flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
+  font-size: 13px;
 }
 .time-date >span {
   color: rgb(162	177	188);
   display: flex;
+  font-family:sans-serif;
   flex-direction: row;
   margin-left: 10px;
   }
+.time-date >span.anne {
+  color: rgb(13	107	175	);
+}
+span:last-child {
+  text-decoration: underline;
+}
 .post-body {
   display: flex;
   flex-wrap:wrap;
@@ -141,10 +149,37 @@ margin-left: 10px;
 blockquote {
   color: rgb(13	107	175);
   font-size: 20px;
-  border-left: 5px solid grey;
-  border-width:medium;
-  padding-left: 50px;
+  border-left:solid rgb(211	211	211);
+  border-width:2px;
+  line-height: 60px;
+  margin: 0;
+  padding-left: 25px;
+  margin-left: 5px;
 }
+.buttons >img {
+  height: 12px;
+  background-color: rgb(94	104	111);
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 9px;
+}
+.buttons >a {
+  margin-left: -3px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  background-color: rgb(163	179	190);
+  line-height: 31px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-size: cover;
+  position: relative;
+  bottom: 10px;
+}
+
 .side-bar {
   display: flex;
   flex-direction: column;
@@ -161,15 +196,27 @@ blockquote {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  padding-inline-start:0;
+  margin-top: 0;
+  margin-bottom:50px;
 }
 .profile >ol>li {
   margin-left: 10px;
   color: rgb(162	177	188);
+  font-family: sans-serif;
+  font-size: 13px;
 }
+.profile li:not(:first-child):before {
+  content: "|" ;
+  margin-right: 20px;
+  color: rgb(252	252	252);
+}
+
 .profile >span {
   margin:0;
   height: 20px;
   color: rgb(13	107	175	);
+  font-family: sans-serif;
 }
 .advertisement >span {
   display: flex;
@@ -178,6 +225,18 @@ blockquote {
   justify-content: flex-end;
   text-decoration: underline;
 }
+.sidecontent >h2 {
+  color: rgb(21	109	176);
+  margin-bottom:-10px;
+  margin-top: 30px;
+}
+.sidecontent >p {
+    color: rgb(162	177	188);
+    font-family: "Oswald" sans-serif;
+    font-size: 14px;
+    padding-right: 50px;
+}
+
 .bottomnav {
   text-align: right;
   background-color: rgba(11, 53, 80,1);
