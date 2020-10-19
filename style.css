@@ -132,11 +132,11 @@ margin-left: 10px;
   flex-direction: row;
   margin-left: 10px;
   }
+  .time-date >span:last-child {
+    text-decoration: underline;
+  }
 .time-date >span.anne {
   color: rgb(13	107	175	);
-}
-span:last-child {
-  text-decoration: underline;
 }
 .post-body {
   display: flex;
@@ -156,18 +156,28 @@ blockquote {
   padding-left: 25px;
   margin-left: 5px;
 }
-.buttons >img {
+.buttons >div >a:hover {
+    background-color:rgb(13	107	175);
+}
+.buttons >div >img:hover {
+ background-color:rgb(11,53,80);
+}
+.buttons {
+  display: flex;
+}
+.buttons >div >img {
   height: 12px;
   background-color: rgb(94	104	111);
+  margin-left: 8px;
   padding-top: 10px;
   padding-left: 8px;
   padding-right: 8px;
   padding-bottom: 9px;
 }
-.buttons >a {
+.buttons >div >a {
   margin-left: -3px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none !important;
   color:white;
   background-color: rgb(163	179	190);
   line-height: 31px;
@@ -179,7 +189,6 @@ blockquote {
   position: relative;
   bottom: 10px;
 }
-
 .side-bar {
   display: flex;
   flex-direction: column;
@@ -236,7 +245,15 @@ blockquote {
     font-size: 14px;
     padding-right: 50px;
 }
+h3 {
+  font-size: 50px;
+  text-align: center;
+  color:rgb(11,53,80);
+  border-top:1px solid grey;
+  padding-top: 20px;
+  margin-bottom: 20px;
 
+}
 .bottomnav {
   text-align: right;
   background-color: rgba(11, 53, 80,1);
