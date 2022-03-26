@@ -7,3 +7,5 @@ but this was extremely difficult for me and tested my patiencce.
 In the end it didn't look perfect and it wasn't dynamic at all (Only worked on very set screen
 size). But I learned a lot about how block elements worked and how to style them.
 
+Keep in mind that this was built without any CSS frameworks. So I got lots of css
+practice with this project.
